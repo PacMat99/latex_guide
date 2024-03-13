@@ -1,9 +1,3 @@
----
-title: Home
-layout: home
-nav_order: 1
----
-
 # Latex Guide
 
 ## Come compilare un documento
@@ -14,7 +8,3 @@ Esempio:
 ```
 pdflatex test1.tex
 ```
-
-----
-
-Made with &hearts; by [PacMat99](https://github.com/PacMat99)

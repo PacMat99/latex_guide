@@ -1,8 +1,18 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: IoT by PacMat99
+description: Passione per il mondo dell'IoT
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://latex.pacsbrothers.com
+
+logo: "./images/logo.png"
+favicon_ico: "favicon.ico"
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "Instagram":
+    - "https://www.instagram.com/mattiapacchin"
+  "GitHub":
+    - "https://github.com/PacMat99/nodered_guide"
+
+aux_links_new_tab: true
+
+color_scheme: dark
