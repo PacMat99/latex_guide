@@ -1,7 +1,7 @@
 ---
-title: Struttura
+title: Struttura di un documento
 layout: home
-nav_order: 2
+nav_order: 3
 ---
 
 # Struttura di un documento LaTeX

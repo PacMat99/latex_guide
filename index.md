@@ -6,7 +6,7 @@ nav_order: 1
 
 # LaTeX
 
-# Benvenuti nel Mondo di LaTeX!
+## Benvenuti nel Mondo di LaTeX!
 
 Se sei un appassionato di scrittura, che sia per scopi accademici, professionali o personali, avrai probabilmente sentito parlare di LaTeX (pronunciato *latek*). Questo potente linguaggio di markup è un punto di riferimento per la creazione di documenti di alta qualità, dall'aspetto professionale e dalla formattazione impeccabile.
 
@@ -24,20 +24,11 @@ In questo sito esploreremo i concetti fondamentali di LaTeX, dalla creazione di 
 
 2. *Gestione della Qualità Tipografica*: LaTeX eccelle nella qualità tipografica, gestendo in modo superiore spaziatura, margini, rientranze, e soprattutto la composizione di testo matematico e scientifico, grazie alla sua integrazione con il sistema MathTex.
 
-3. *Gestione di Documenti Lunghi e Complessi*: LaTeX è particolarmente adatto per documenti lunghi e strutturati, come tesi di laurea, articoli scientifici, e libri, permettendo una gestione semplificata di riferimenti incrociati, bibliografie, indici, e numerazione delle sezioni.
+3. *Gestione di Documenti Lunghi e Complessi*: LaTeX è particolarmente adatto per documenti lunghi e strutturati come tesi di laurea, articoli scientifici, e libri, permettendo una gestione semplificata di riferimenti incrociati, bibliografie, indici, e numerazione delle sezioni.
 
-4. *Collaborazione e Condivisione*: LaTeX documenti sono essenzialmente file di testo, il che facilita la collaborazione e la condivisione attraverso sistemi di controllo versione come Git. Tuttavia, richiede che tutti i collaboratori conoscano LaTeX.
+4. *Collaborazione e Condivisione*: i documenti sono essenzialmente file di testo, il che facilita la collaborazione e la condivisione attraverso sistemi di controllo versione come Git. Tuttavia, richiede che tutti i collaboratori conoscano LaTeX.
 
 5. *Personalizzazione e Automazione*: LaTeX offre una vasta gamma di pacchetti aggiuntivi per personalizzare quasi ogni aspetto del documento. Inoltre, permette l'automazione di molte funzioni di formattazione attraverso la definizione di nuovi comandi.
-
-## Come compilare un documento
-
-Per compilare un documento lanciare il comando `pdflatex nome.tex` da terminale.  
-Esempio:
-
-```
-pdflatex test1.tex
-```
 
 ----
 

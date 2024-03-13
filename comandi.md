@@ -1,12 +1,12 @@
 ---
-title: Comandi
+title: Comandi in LaTeX
 layout: home
-nav_order: 4
+nav_order: 5
 ---
 
-# Comandi utili
+# Comandi per la modifica del testo
 
-- **\emph{testo}** --> enfatizza un testo solitamente mettendolo in corsivo
+- **\emph{testo}** --> enfatizza un testo mettendolo in corsivo
 - Il carattere ~ indica di lasciare uno spazio in composizione che però non può essere usato per spezzare una riga.
 - **\documentclass** --> indica con quale tipo di documento si ha a che fare
 - **\linebreak** --> fa andare a capo dalla parola successiva
