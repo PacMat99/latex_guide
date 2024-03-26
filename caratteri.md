@@ -9,7 +9,9 @@ nav_order: 4
 Un documento LaTeX può essere scritto utilizzando solo caratteri ASCII compresi nell'intervallo 32-126.  
 Ci sono poi i caratteri speciali e quelli specifici per lingua che possono essere scritti utilizzando delle combinazioni di caratteri.
 
-## Caratteri speciali
+## Caratteri speciali e segni diacritici
+
+In questa tabella sono riportati alcuni dei simboli più utili per la scrittura di caratteri speciali e per l'utilizzo di funzionalità specifiche di LaTeX.
 
 | Carattere | Nome          | Descrizione |
 | :---      | :---          | :---        |
@@ -27,3 +29,27 @@ Ci sono poi i caratteri speciali e quelli specifici per lingua che possono esser
 | #         | Cancelletto   | Si usa nelle definizioni dei comandi. Il comando \\# produce un cancelletto. |
 | &         | e commerciale | Si usa negli ambienti di allineamento. Il comando \\& produce una e commerciale. |
 | %         | percento  | Introduce un commento che non appare nella pagina. Il comando \\% produce un commento. |
+
+In LaTeX è possibile scrivere moltissimi caratteri speciali. Qua sono riportati solo alcuni esempi, ma lanciando da terminale il comando `texdoc symbols-a4` verrà aperto un documento con 18150 simboli! :)
+
+| Comando | Carattere |
+| :--- | :--- |
+| \AE | Æ |
+| \ae | æ |
+| \OE | Œ |
+| \oe | œ |
+| \DH | Ð |
+| \dh | ð |
+| \O | Ø |
+| \o | ø |
+| \DJ | Ð |
+| \dj | đ |
+| \ss | ß |
+| \L | Ł |
+| \l | ł |
+| \TH | Þ |
+| \th | þ |
+| \i | ı |
+| \S | § |
+| !` | ¡ |
+| ?` | ¿ |

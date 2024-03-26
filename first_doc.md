@@ -1,7 +1,7 @@
 ---
 title: Il primo documento
 layout: home
-nav_order: 6
+nav_order: 7
 ---
 
 # Il primo documento in LaTeX
@@ -15,20 +15,73 @@ Apri TeXworks o qualsiasi altro editor LaTeX che hai scelto durante l'installazi
 Inizia con un documento semplice per familiarizzare con la struttura di base di un documento LaTeX. Copia e incolla il seguente codice nel tuo editor:
 
 ```
-\documentclass{article}
+\documentclass[a4paper, 12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[english,italian]{babel}
+
+\usepackage{kantlipsum}
+
+\newenvironment{citazione}[1]
+{\begin{quotation}\begin{otherlanguage*}{#1}\small\itshape}
+{\end{otherlanguage*}\end{quotation}}
+
+\newenvironment{incipit}[1]
+{\begin{citazione}{#1}\normalfont}
+{\end{citazione}}
 
 \begin{document}
 
-\title{Il Mio Primo Documento}
-\author{Il Tuo Nome}
+\title{Il mio primo documento LaTeX}
+\author{Mattia}
 \date{\today}
 \maketitle
 
-\section{Introduzione}
-Benvenuti nel mio primo documento creato usando \LaTeX. Questo è un paragrafo di esempio.
+Questo è il mio primo documento in \LaTeX{}.
+Questo è un \textit{capoverso}, il primo capoverso di questo documento.
+Se tutto va per il verso giusto le righe successive alla prima dovrebbero essere spostate leggermente più a sinistra perché non hanno il rientro iniziale.
 
-\section{Conclusione}
-Ecco come si crea un semplice documento in \LaTeX.
+\emph{Vediamo un po' cosa riusciamo a fare!}
+Effettivamente tutto sembra funzionare.
+Il rientro iniziale ha origini centinaia di anni fa ed è uno stile tipografico a cui non si è ancora trovata un'alternativa altrettanto valida.
+
+\small Questo \`{e} un paragrafo con ``caratteri speciali''.
+
+Ora proviamo a scrivere alcuni esempi di framebox:
+
+\framebox[10cm][l]{framebox con testo a sinistra}
+
+\framebox[10cm][r]{framebox con testo a destra}
+
+\framebox[10cm][s]{framebox con testo distribuito}
+
+{\scshape Questo è un Esempio di Gruppo in Maiuscoletto.}
+
+\textsc{Questo è un Testo in Maiuscoletto scritto in modo Corretto.}
+
+Facciamo un esempio di citazione con corpo leggermente più piccolo di un testo inglese scritto in corsivo utilizzando un gruppo:
+\begin{quotation}
+    \small\itshape 
+    \begin{otherlanguage*}{english}
+        Whether I shall turn out to be the hero
+        of my own life, or whether that station will be
+        held by anybody else, these pages must show.
+    \end{otherlanguage*}
+\end{quotation}
+\`{E} un perfetto esempio dello stile di Dickens.
+
+Ora vediamo un altro esempio.
+
+\kant[1][1-4]
+
+\begin{incipit}{english}
+    \kant[2][1-4]
+\end{incipit}
+
+\kant[3][1-4]
+
+\begin{citazione}{english}
+    \kant[4][1-2]
+\end{citazione}
 
 \end{document}
 ```
